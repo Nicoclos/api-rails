@@ -15,8 +15,8 @@ User.destroy_all
 user_number.times do |i|
   User.create(
     email:"user#{i}@yopmail.com",
-    password:"xabi123",
-    password_confirmation:"xabi123"
+    password:"nico123",
+    password_confirmation:"nico123"
   )
   system("clear")
   puts "#{i+1} users created"
